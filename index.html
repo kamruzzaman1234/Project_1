@@ -27,7 +27,7 @@
 <body class="font-poppins">
         <header class="container mx-auto">
             <!-- first header area -->
-            <div class="flex justify-center items-center
+            <div class="flex justify-center items-center sm:flex-col px-4 lg:px-10
              lg:justify-around lg:items-center py-3 bg-black">
                 <div class="flex text-[8px] lg:text-[14px]">
                     <p class="color1">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
@@ -80,9 +80,9 @@
             <!-- Banner Area -->
             <section class="px-10 border-t-2 border-gray-300">
                 <div class="flex flex-col lg:flex-row">
-                    <div class="border-r-2 border-b-2 border-0
+                    <div class=" lg:border-r-2  lg:border-b-2 border-0
                       border-gray-300 p-10 sm:pb-10">
-                        <ul class="flex flex-col text-[16px] font-normal space-y-6">
+                        <ul class="flex flex-col justify-center lg:justify-start items-center text-[16px] font-normal space-y-6">
                             <li><a href="">Woman’s Fashion</a></li>
                             <li><a href="">Men’s Fashion</a></li>
                             <li><a href="">Electronics</a></li>
@@ -95,7 +95,7 @@
                             
                         </ul>
                     </div>
-                        <div class="flex-1 p-10 sm:none lg:block border-b-2 border-gray-300">
+                        <div class="flex-1 p-10 hidden lg:block  border-0 lg:border-b-2 border-gray-300">
                             <div class="carousel w-full ">
                                 <!-- Slide One -->
                                 <div id="slide1" class="carousel-item relative bg-black w-full">
@@ -203,9 +203,10 @@
                    </div> 
                 </div>
                 <!-- Flash Sales Area -->
-                <div class="flex justify-between items-center">
+                <div class="flex flex-col mt-5 lg:mt-3 lg:flex-row sm:space-y-4
+                lg:justify-between lg:items-center">
                   <div>
-                      <h4 class="text-4xl font-bold">Flash Sales</h4>
+                      <h4 class="text-4xl font-bold sm:text-start">Flash Sales</h4>
                   </div>
                   <div class="grid grid-flow-col gap-5  text-center my-5 auto-cols-max">
                     <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
@@ -246,7 +247,7 @@
           <!-- Product area -->
           <section>
             <div>
-              <div class="grid grid-cols-1 lg:grid-cols-4 gap-5">
+              <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 lg:gap-5">
 
                 <div class="relative transform ">
                   <div class="bg-[#F5F5F5] py-24 flex-col  flex rounded-lg
@@ -575,11 +576,13 @@
           <!-- Explore Categories -->
           <section class="my-10">
             <div class="bg-gradient-to-l from-slate-600 to-slate-900">
-              <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 px-12 py-16">
+              <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 gap-5 px-12 py-16">
                   <div class="space-y-3 text-white">
-                     <h4 class="text-[#00FF66] font-bold">Categories</h4>
-                     <h2 class="text-[48px] font-semibold">Enhance Your <br> Music Experience</h2>
-                     <div class="flex justify-between items-center mt-10 mb-10">
+                     <h4 class="text-[#00FF66] text-[36px] font-bold">Categories</h4>
+                     <h2 class="text-[28px] lg:text-[48px] font-semibold">Enhance Your <br> Music Experience</h2>
+                     <div class="flex justify-start lg:justify-between gap-10 lg:gap-5 
+                      flex-col lg:flex-row 
+                      lg:items-center ">
                         <div class="flex flex-col 
                         justify-center items-center text-black font-bold
                         w-10 h-10 p-10 rounded-full bg-white">
@@ -602,12 +605,12 @@
                             <span>Hour</span>
                         </div>
                      </div>
-                     <button class="btn border-0 bg-[#00FF66] px-6 text-white ">
+                     <button class="btn border-0 bg-[#00FF66] my-10 lg:my-3  px-6 text-white ">
                         Buy Now
                      </button>
               </div>
-              <div class="col-span-2 flex justify-end">
-                <img src="Image/p9.png" alt="Images">
+              <div class="flex sm:hidden lg:block justify-end items-center">
+                <img src="Image/p9.png" alt="Images" class="hidden lg:block">
               </div>
             </div>
           </section>
@@ -624,7 +627,7 @@
             <div>
               <h4 class="text-4xl font-bold">Flash Sales</h4>
           </div>
-            <div class="grid grid-cols-1 lg:grid-cols-4 mt-10 gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-4 mt-10 gap-10 lg:gap-5">
               <div class="relative transform ">
                 <div class="bg-[#F5F5F5] py-24 flex-col  flex rounded-lg
                  justify-center items-center">
@@ -919,8 +922,8 @@
               <div>
                 <h4 class="text-4xl font-bold">New Arrival</h4>
               </div>
-              <div class="grid grid-cols-1 lg:grid-cols-2 mt-10 gap-4">
-                <div class="bg-black relative">
+              <div class="grid grid-cols-1 lg:grid-cols-2 mt-10 gap-10 lg:gap-5">
+                <div class="bg-black  relative">
                     <div class="flex justify-center items-center">
                       <img src="Image/p11.png" alt="Product ">
                     </div>
@@ -944,7 +947,9 @@
                       </div> 
                       </div>
                     </div>
-                    <div class="bg-black flex justify-center items-center relative">
+                    <div class="bg-black flex
+                     justify-center lg:col-span-1 col-span-2
+                     items-center relative">
                         <div>
                             <img src="Image/1.png" alt="">
                         </div>
@@ -954,7 +959,8 @@
                           <a href="" class="underline text-[16px] font-medium">Shop Now</a>
                       </div>
                     </div>
-                    <div class="bg-black flex justify-center items-center relative">
+                    <div class="bg-black flex lg:col-span-1 col-span-2
+                     justify-center items-center relative">
                       <div>
                           <img src="Image/3.png" alt="">
                       </div>
@@ -965,6 +971,8 @@
                     </div>
                   </div>
                 </div>
+
+
                 <div>
 
                 </div>
@@ -972,7 +980,8 @@
            </div>
           </section>
           <section class="my-10">
-              <div class="flex  justify-center items-center gap-10 py-12">
+              <div class="flex flex-col lg:flex-row 
+              justify-center items-center gap-10 py-12">
                 <div class="text-center space-y-2">
                     <i class="fa-solid fa-bus 
                       text-4xl bg-black border-8 border-gray-300 rounded-full
