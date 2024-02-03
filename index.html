@@ -208,7 +208,7 @@
                   <div>
                       <h4 class="text-4xl font-bold sm:text-start">Flash Sales</h4>
                   </div>
-                  <div class="grid grid-flow-col gap-5  text-center my-5 auto-cols-max">
+                  <div class="grid grid-cols-2 lg:grid-cols-4 gap-5  text-center my-5 auto-cols-max">
                     <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
                       
                       <span class="countdown font-mono text-5xl">
@@ -403,7 +403,7 @@
            <!-- Category Area -->
            <div>
               <h3 class="text-3xl font-semibold">Browse By Category</h3>
-              <div class="grid grid-cols-1 lg:grid-cols-6 my-6 gap-4">
+              <div class="grid grid-cols-1 sm:justify-center sm:items-center lg:grid-cols-6 my-6 gap-4">
                   <div class="flex justify-center
                    flex-col py-6 space-y-3 transform hover:bg-red-400 hover:text-white
                   items-center border-2 border-gray-300">
@@ -578,11 +578,10 @@
             <div class="bg-gradient-to-l from-slate-600 to-slate-900">
               <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 gap-5 px-12 py-16">
                   <div class="space-y-3 text-white">
-                     <h4 class="text-[#00FF66] text-[36px] font-bold">Categories</h4>
+                     <h4 class="text-[#00FF66] 
+                     text-[36px] font-bold">Categories</h4>
                      <h2 class="text-[28px] lg:text-[48px] font-semibold">Enhance Your <br> Music Experience</h2>
-                     <div class="flex justify-start lg:justify-between gap-10 lg:gap-5 
-                      flex-col lg:flex-row 
-                      lg:items-center ">
+                     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
                         <div class="flex flex-col 
                         justify-center items-center text-black font-bold
                         w-10 h-10 p-10 rounded-full bg-white">
@@ -605,7 +604,7 @@
                             <span>Hour</span>
                         </div>
                      </div>
-                     <button class="btn border-0 bg-[#00FF66] my-10 lg:my-3  px-6 text-white ">
+                     <button class="btn border-0  bg-[#00FF66] text-white ">
                         Buy Now
                      </button>
               </div>
@@ -655,7 +654,7 @@
                       <span><i class="fa-regular fa-heart bg-white rounded-full p-2"></i></span>
                       <span><i class="fa-regular fa-eye bg-white rounded-full p-2 "></i></span>
                     </div>
-                    <div class="bg-black text-white py-5 lg:py-2 text-center
+                    <div class="bg-black text-white py-2 lg:py-2 text-center
                      absolute bottom-20  w-full">
                       <button >Add to Cart</button>
                     </div>
@@ -935,17 +934,20 @@
 
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
-                    <div class="col-span-2 relative">
+                    <div class="bg-black col-span-1 lg:col-span-2 
+                     relative hidden lg:block
+                    ">
                       <div>
                         <img src="Image/8.png" alt="Images" class="w-full">
                       </div>
-                      <div>
-                        <div class="space-y-3 text-white mb-10 absolute bottom-0 pl-8">
+
+                        <div class="space-y-3 text-white mb-2 lg:mb-10 bottom-0 absolute pl-8">
                           <h3 class="font-semibold text-3xl">Women's Collection</h3>
-                          <p class="font-normal text-[16px]">Black and White version of the PS5 <br> coming out on sale.</p>
+                          <p class="font-normal text-[16px] mb-7">Black and White version of the PS5 <br> coming out on sale.</p>
                           <a href="" class="underline text-[16px] font-medium mt-5">Shop Now</a>
                       </div> 
-                      </div>
+                    
+
                     </div>
                     <div class="bg-black flex
                      justify-center lg:col-span-1 col-span-2
@@ -977,6 +979,9 @@
 
                 </div>
               </div>
+
+
+
            </div>
           </section>
           <section class="my-10">
